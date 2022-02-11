@@ -33,7 +33,7 @@ def index(request):
 def Save_base_Livre(request):
     # recupération des données airtable #
     r = requests.get('https://api.airtable.com/v0/appBvKk6a0YWsf0ay/'
-                     'Biblioth%C3%A8que%20des%20Fulcos?api_key=keyAeXwxVMw0lLYtK&'
+                     'Biblioth%C3%A8que%20des%20Fulcos?api_key=keykeykeykey'
                      'fields%5B%5D=Titre&fields%5B%5D=Nomtxt&fields%5B%5D=Tagstxt&'
                      'fields%5B%5D=Formatcm&fields%5B%5D=Pages&fields%5B%5D=Lutxt&'
                      '&fields%5B%5D=reference&fields%5B%5D=Resume')
