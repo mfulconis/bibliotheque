@@ -14,7 +14,7 @@ stopwords2 =["L'", "La", "Le", "Une", "Un", "le", "la", "A", "Les", "les", "Des"
 # recuoère les données sur  Airtable
 def getdata():
     r = requests.get('https://api.airtable.com/v0/appBvKk6a0YWsf0ay/'
-                 'Biblioth%C3%A8que%20des%20Fulcos?api_key=keyAeXwxVMw0lLYtK&'
+                 'Biblioth%C3%A8que%20des%20Fulcos?api_key=keykeykeykeykeykeykey'
                  'fields%5B%5D=Titre&fields%5B%5D=Nomtxt&fields%5B%5D=Tagstxt&'
                  'fields%5B%5D=Formatcm&fields%5B%5D=Pages&fields%5B%5D=Lutxt&')
     base = json.loads(r.text)
@@ -24,7 +24,7 @@ def getdata():
 
 def creercorpus():
     r = requests.get('https://api.airtable.com/v0/appBvKk6a0YWsf0ay/'
-                     'Biblioth%C3%A8que%20des%20Fulcos?api_key=keyAeXwxVMw0lLYtK&'
+                     'Biblioth%C3%A8que%20des%20Fulcos?api_key=keykeykeykeykeykeykey'
                      'fields%5B%5D=Titre&fields%5B%5D=Tagstxt&fields%5B%5D=reference&fields%5B%5D=Resume')
     json_base = json.loads(r.text)
     temp1 = json_base["records"]
